@@ -4,7 +4,7 @@
   "description": "Voip try",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "webpack",
     "dev": "webpack-dev-server --mode development --open --progress"
   },
   "keywords": [],
