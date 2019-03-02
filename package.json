@@ -4,8 +4,8 @@
   "description": "Voip try",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --mode production",
-    "start": "webpack-dev-server --mode development --open --progress"
+    "start": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --progress"
   },
   "keywords": [],
   "author": "Anna Vaskovska",
